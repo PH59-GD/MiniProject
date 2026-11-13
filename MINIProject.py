@@ -211,19 +211,14 @@ while True:
             UC1 = input("Input: ")
             Stu = Student_Master()
             if(UC1 == "1"):
-                #NewStu = Student_Master()
                 Stu.Create_Student()
             elif(UC1 == "2"):
-                #DSPLYStu = Student_Master()
                 Stu.Display_Student()
             elif(UC1 == "3"):
-                #ModStu = Student_Master()
                 Stu.Modify_Student()
             elif(UC1 == "4"):
-                #DelStu = Student_Master()
                 Stu.Delete_Student()
             elif(UC1 == "5"):
-                #DowStu = Student_Master() 
                 Stu.Download_Student()
             elif(UC1 == "6"):
                 break
@@ -238,21 +233,17 @@ while True:
             print("[6] Back")
             print("")
             UC2 = input("Input: ")
+            Fac = Faculty_Master()
             if(UC2 == "1"):
-                NewFac = Faculty_Master()
-                NewFac.Create_Faculty()
+                Fac.Create_Faculty()
             elif(UC2 == "2"):
-                DSPLYFac = Faculty_Master()
-                DSPLYFac.Display_Faculty()
+                Fac.Display_Faculty()
             elif(UC2 == "3"):
-                ModFac = Faculty_Master()
-                ModFac.Modify_Faculty()
+                Fac.Modify_Faculty()
             elif(UC2 == "4"):
-                DelFac = Faculty_Master()
-                DelFac.Delete_Faculty()
+                Fac.Delete_Faculty()
             elif(UC2 == "5"):
-                DowFac = Faculty_Master()
-                DowFac.Download_Faculty()
+                Fac.Download_Faculty()
             elif(UC2 == "6"):
                 break
     elif(UC == "3"):
