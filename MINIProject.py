@@ -209,21 +209,22 @@ while True:
             print("[6] Back")
             print("")
             UC1 = input("Input: ")
+            Stu = Student_Master()
             if(UC1 == "1"):
-                NewStu = Student_Master()
-                NewStu.Create_Student()
+                #NewStu = Student_Master()
+                Stu.Create_Student()
             elif(UC1 == "2"):
-                DSPLYStu = Student_Master()
-                DSPLYStu.Display_Student()
+                #DSPLYStu = Student_Master()
+                Stu.Display_Student()
             elif(UC1 == "3"):
-                ModStu = Student_Master()
-                ModStu.Modify_Student()
+                #ModStu = Student_Master()
+                Stu.Modify_Student()
             elif(UC1 == "4"):
-                DelStu = Student_Master()
-                DelStu.Delete_Student()
+                #DelStu = Student_Master()
+                Stu.Delete_Student()
             elif(UC1 == "5"):
-                DowStu = Student_Master() 
-                DowStu.Download_Student()
+                #DowStu = Student_Master() 
+                Stu.Download_Student()
             elif(UC1 == "6"):
                 break
     elif(UC == "2"):
