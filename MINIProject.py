@@ -29,7 +29,7 @@ cursor.execute( """
         StudentID INT PRIMARY KEY,
         Name VARCHAR(50),
         Major VARCHAR(50),
-        Courses VARCHAR(50),
+        Courses VARCHAR(5000),
         GPA VARCHAR(50)
         )
 """)
@@ -39,7 +39,7 @@ cursor.execute( """
         FacultyID INT PRIMARY KEY,
         Name VARCHAR(50),
         Department VARCHAR(50),
-        Teaches_Courses VARCHAR(50)
+        Teaches_Courses VARCHAR(5000)
         
         )
 """)
